@@ -9,6 +9,7 @@ import {PhotoAction} from '../action/photo.action';
 // note: call adapter in another function then embedded state type after this we will get some data.
 // tslint:disable-next-line:class-name
 export interface initPhotoType extends EntityState<PhotoModel> {
+  // u can additional entities state properties
   selectedPhotoId: number | null;
   loading: boolean;
   loaded: boolean;

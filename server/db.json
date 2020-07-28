@@ -1,0 +1,18 @@
+{
+  "photo": [
+    {
+      "id": 21,
+      "albumId": 1,
+      "thumbnailUrl": "https://via.placeholder.com/150/66b7d2",
+      "url": "https://via.placeholder.com/600/66b7d2",
+      "title": "test post123"
+    },
+    {
+      "albumId": "123",
+      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2020/07/27/115909025972359893205066703201-2360-3065-1595865723.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=nthuTh-R_-SeK7XrYuumrg",
+      "url": "https://i1-vnexpress.vnecdn.net/2020/07/27/115909025972359893205066703201-2360-3065-1595865723.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=nthuTh-R_-SeK7XrYuumrg",
+      "title": "covid",
+      "id": 22
+    }
+  ]
+}

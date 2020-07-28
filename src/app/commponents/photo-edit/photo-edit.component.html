@@ -1,0 +1,26 @@
+<h3>Edit photo</h3>
+
+<form class="form-inline mb-4">
+  <form [formGroup]="photoForm" (submit)="updatePhoto()" class="form-inline mb-4">
+    <label class="sr-only" for="albumId">NumberID</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="albumId" placeholder="NumberID" id="albumId">
+    </div>
+
+    <label class="sr-only" for="title">title</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="title" placeholder="title" id="title">
+    </div>
+
+    <label class="sr-only" for="url">url</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="url" placeholder="url" id="url">
+    </div>
+
+    <label class="sr-only" for="thumbnailUrl">thumbnailUrl</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="thumbnailUrl" placeholder="thumbnailUrl" id="thumbnailUrl">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Edit Photo</button>
+  </form>
+</form>

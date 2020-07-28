@@ -55,6 +55,7 @@ export class PhotoEditComponent implements OnInit {
         title: this.photoForm.get('title').value,
       };
       // call action
+      console.log('--start edit-component call action to edit');
       this.store.dispatch(new photoAction.EditOnePhoto(photoEdit));
       this.photoForm.reset();
     }

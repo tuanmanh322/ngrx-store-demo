@@ -37,6 +37,7 @@ export class PhotoCreateComponent implements OnInit {
         title: this.photoForm.get('title').value,
       };
       // call action
+      console.log('---start add-component to call CreateOnePhoto ');
       this.store.dispatch(new photoAction.CreateOnePhoto(photoEdit));
       this.photoForm.reset();
     }
